@@ -15,20 +15,21 @@ listing:
     categories: false
     sort-ui: false
     filter-ui: false
-    max-items: 3
-    feed: false
+    max-items: 9
+    feed: true
 
 toc: false
 ---
 ::: {.content-container}
 ::: {.top-story .callout}
+<a href="/country_reports/index.qmd"> 
 ::: grid
 ::: {.g-col-12 .g-col-lg-4 .top-story-text}
 ## 'The SPI framework assesses the maturity and performance of national statistical systems'
-Reliable, usable, high-quality statistics are vital for global prosperity and progress. The Statistical Performance Indicators (SPI) provide an open-source framework for assessing the performance of statistical systems and the efforts to improve them. 
+Reliable, usable, high-quality statistics are vital for global prosperity and progress. The Statistical Performance Indicators (SPI) provide an open-source framework for assessing the performance of statistical systems and the efforts to improve them. This page provides detailed country reports for the SPI.  Click to visit.
 :::
 ::: {.g-col-12 .g-col-lg-8 .top-story-img}
-![](images/SPI_dashboard.png)
+![](images/map-1.png)
 :::
 :::
 
@@ -45,8 +46,8 @@ Welcome to the **Statistical Performance Indicators (SPI)** country pages. The [
 :::
 :::
 
-<a> href="/country_reports/index.qmd"
-## Country Pages
+<a href="/country_reports/index.qmd"> 
+## Example Country Pages
 </a>
 
 ::: {#country_reports}
