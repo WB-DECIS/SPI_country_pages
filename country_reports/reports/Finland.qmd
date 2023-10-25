@@ -1,0 +1,15 @@
+---
+title: "Finland"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Finland.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/FI.png
+---
+
+This is the Finland Country Report.
+<iframe src="charts/Finland_chart.html" width="800" height="600"></iframe>
+

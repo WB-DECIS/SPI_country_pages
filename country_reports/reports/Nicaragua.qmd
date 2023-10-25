@@ -1,0 +1,15 @@
+---
+title: "Nicaragua"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Nicaragua.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - Lower middle income
+image: images/NI.png
+---
+
+This is the Nicaragua Country Report.
+<iframe src="charts/Nicaragua_chart.html" width="800" height="600"></iframe>
+

@@ -1,0 +1,15 @@
+---
+title: "Korea, Dem. People's Rep."
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Korea, Dem. People's Rep..
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Low income
+image: images/KP.png
+---
+
+This is the Korea, Dem. People's Rep. Country Report.
+<iframe src="charts/Korea, Dem. People's Rep._chart.html" width="800" height="600"></iframe>
+

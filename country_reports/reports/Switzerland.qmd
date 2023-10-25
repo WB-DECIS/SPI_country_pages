@@ -1,0 +1,15 @@
+---
+title: "Switzerland"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Switzerland.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/CH.png
+---
+
+This is the Switzerland Country Report.
+<iframe src="charts/Switzerland_chart.html" width="800" height="600"></iframe>
+

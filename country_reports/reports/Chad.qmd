@@ -1,0 +1,15 @@
+---
+title: "Chad"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Chad.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Low income
+image: images/TD.png
+---
+
+This is the Chad Country Report.
+<iframe src="charts/Chad_chart.html" width="800" height="600"></iframe>
+

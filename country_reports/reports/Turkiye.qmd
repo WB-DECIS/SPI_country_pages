@@ -1,0 +1,15 @@
+---
+title: "Turkiye"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Turkiye.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - Upper middle income
+image: images/TR.png
+---
+
+This is the Turkiye Country Report.
+<iframe src="charts/Turkiye_chart.html" width="800" height="600"></iframe>
+

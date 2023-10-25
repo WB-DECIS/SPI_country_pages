@@ -1,0 +1,15 @@
+---
+title: "Burundi"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Burundi.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Low income
+image: images/BI.png
+---
+
+This is the Burundi Country Report.
+<iframe src="charts/Burundi_chart.html" width="800" height="600"></iframe>
+

@@ -1,0 +1,15 @@
+---
+title: "Ethiopia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Ethiopia.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Low income
+image: images/ET.png
+---
+
+This is the Ethiopia Country Report.
+<iframe src="charts/Ethiopia_chart.html" width="800" height="600"></iframe>
+

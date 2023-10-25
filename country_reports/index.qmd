@@ -1,0 +1,18 @@
+---
+pagetitle: Country Reports | Statistical Performance Indicators
+title: Country Reports
+subtitle: Choose a country of interest
+search: true  
+listing:
+  contents: 
+  - reports/
+  - "!index.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  page-size: 30
+  feed: true
+---
+For further details see our [SPI data explorer](https://datanalytics.worldbank.org/SPI/) and our [code and data](https://github.com/worldbank/SPI) on github. 

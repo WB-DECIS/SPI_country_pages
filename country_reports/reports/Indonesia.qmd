@@ -1,0 +1,15 @@
+---
+title: "Indonesia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Indonesia.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Upper middle income
+image: images/ID.png
+---
+
+This is the Indonesia Country Report.
+<iframe src="charts/Indonesia_chart.html" width="800" height="600"></iframe>
+

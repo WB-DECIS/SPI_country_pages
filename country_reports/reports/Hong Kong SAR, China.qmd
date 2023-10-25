@@ -1,0 +1,15 @@
+---
+title: "Hong Kong SAR, China"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Hong Kong SAR, China.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - High income
+image: images/HK.png
+---
+
+This is the Hong Kong SAR, China Country Report.
+<iframe src="charts/Hong Kong SAR, China_chart.html" width="800" height="600"></iframe>
+

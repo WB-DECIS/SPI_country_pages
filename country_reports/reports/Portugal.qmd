@@ -1,0 +1,15 @@
+---
+title: "Portugal"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Portugal.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/PT.png
+---
+
+This is the Portugal Country Report.
+<iframe src="charts/Portugal_chart.html" width="800" height="600"></iframe>
+

@@ -1,0 +1,15 @@
+---
+title: "Costa Rica"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Costa Rica.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - Upper middle income
+image: images/CR.png
+---
+
+This is the Costa Rica Country Report.
+<iframe src="charts/Costa Rica_chart.html" width="800" height="600"></iframe>
+

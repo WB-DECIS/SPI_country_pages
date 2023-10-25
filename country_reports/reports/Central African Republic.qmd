@@ -1,0 +1,15 @@
+---
+title: "Central African Republic"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Central African Republic.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Low income
+image: images/CF.png
+---
+
+This is the Central African Republic Country Report.
+<iframe src="charts/Central African Republic_chart.html" width="800" height="600"></iframe>
+

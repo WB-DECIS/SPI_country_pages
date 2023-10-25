@@ -1,0 +1,15 @@
+---
+title: "Trinidad and Tobago"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Trinidad and Tobago.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - High income
+image: images/TT.png
+---
+
+This is the Trinidad and Tobago Country Report.
+<iframe src="charts/Trinidad and Tobago_chart.html" width="800" height="600"></iframe>
+

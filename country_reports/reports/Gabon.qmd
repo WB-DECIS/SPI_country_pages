@@ -1,0 +1,15 @@
+---
+title: "Gabon"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Gabon.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Upper middle income
+image: images/GA.png
+---
+
+This is the Gabon Country Report.
+<iframe src="charts/Gabon_chart.html" width="800" height="600"></iframe>
+

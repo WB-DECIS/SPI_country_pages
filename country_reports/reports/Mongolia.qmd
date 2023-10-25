@@ -1,0 +1,15 @@
+---
+title: "Mongolia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Mongolia.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Lower middle income
+image: images/MN.png
+---
+
+This is the Mongolia Country Report.
+<iframe src="charts/Mongolia_chart.html" width="800" height="600"></iframe>
+

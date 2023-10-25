@@ -1,0 +1,15 @@
+---
+title: "Macao SAR, China"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Macao SAR, China.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - High income
+image: images/MO.png
+---
+
+This is the Macao SAR, China Country Report.
+<iframe src="charts/Macao SAR, China_chart.html" width="800" height="600"></iframe>
+

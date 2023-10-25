@@ -1,0 +1,15 @@
+---
+title: "Zimbabwe"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Zimbabwe.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/ZW.png
+---
+
+This is the Zimbabwe Country Report.
+<iframe src="charts/Zimbabwe_chart.html" width="800" height="600"></iframe>
+

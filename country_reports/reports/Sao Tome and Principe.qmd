@@ -1,0 +1,15 @@
+---
+title: "Sao Tome and Principe"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Sao Tome and Principe.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/ST.png
+---
+
+This is the Sao Tome and Principe Country Report.
+<iframe src="charts/Sao Tome and Principe_chart.html" width="800" height="600"></iframe>
+

@@ -1,0 +1,15 @@
+---
+title: "St. Kitts and Nevis"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of St. Kitts and Nevis.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - High income
+image: images/KN.png
+---
+
+This is the St. Kitts and Nevis Country Report.
+<iframe src="charts/St. Kitts and Nevis_chart.html" width="800" height="600"></iframe>
+

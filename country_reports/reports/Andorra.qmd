@@ -1,0 +1,15 @@
+---
+title: "Andorra"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Andorra.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/AD.png
+---
+
+This is the Andorra Country Report.
+<iframe src="charts/Andorra_chart.html" width="800" height="600"></iframe>
+

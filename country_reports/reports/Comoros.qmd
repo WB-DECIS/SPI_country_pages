@@ -1,0 +1,15 @@
+---
+title: "Comoros"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Comoros.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/KM.png
+---
+
+This is the Comoros Country Report.
+<iframe src="charts/Comoros_chart.html" width="800" height="600"></iframe>
+

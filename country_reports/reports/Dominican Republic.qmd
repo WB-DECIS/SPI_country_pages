@@ -1,0 +1,15 @@
+---
+title: "Dominican Republic"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Dominican Republic.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - Upper middle income
+image: images/DO.png
+---
+
+This is the Dominican Republic Country Report.
+<iframe src="charts/Dominican Republic_chart.html" width="800" height="600"></iframe>
+

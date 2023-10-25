@@ -1,0 +1,15 @@
+---
+title: "Tanzania"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Tanzania.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/TZ.png
+---
+
+This is the Tanzania Country Report.
+<iframe src="charts/Tanzania_chart.html" width="800" height="600"></iframe>
+

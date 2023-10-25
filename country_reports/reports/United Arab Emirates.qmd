@@ -1,0 +1,15 @@
+---
+title: "United Arab Emirates"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of United Arab Emirates.
+categories:
+    - Statistical Performance
+    - Middle East & North Africa
+    - High income
+image: images/AE.png
+---
+
+This is the United Arab Emirates Country Report.
+<iframe src="charts/United Arab Emirates_chart.html" width="800" height="600"></iframe>
+

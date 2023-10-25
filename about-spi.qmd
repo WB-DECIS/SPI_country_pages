@@ -1,0 +1,94 @@
+---
+title: "Welcome to the Statistical Performance Indicators (SPI)"
+subtitle: A tool for assessing the performance of statistical systems
+sidebar: false
+page-layout: article
+toc: true
+title-block-banner: true
+---
+
+
+## What is the goal of the new Statistical Performance Indicators (SPI)?
+
+The Statistical Performance Indicators measure the capacity and maturity of national statistical systems by assessing the use of data, the quality of services, the coverage of topics, the sources of information, and the infrastructure and availability of resources. The goal is to improve development outcomes and track progress toward the Sustainable Development Goals.
+
+The hope is that the SPI framework will give countries incentives to build better statistical systems and will help create data ecosystems that can develop and adapt to the requirements of governments and citizens - so that better data can support better decisions.
+
+To build confidence in the SPI all data and code are open and will be updated in March each year.
+
+## What is statistical performance, and why does it matter?
+
+The statistical performance of economies is defined here by how well, how broadly, and how frequently national statistical systems collect, produce, and disseminate high-quality data in a publicly accessible manner.
+
+The national statistical system (NSS) plays a crucial role in a modern economy. It provides stakeholders—from policymakers to stock market analysts and the public—with the latest data on the country's socioeconomic developments. Since quality statistics are essential for evidence-based policymaking, assessing and improving the capacity of countries’ statistical systems has long been a part of the global agenda. In addition, monitoring progress on global initiatives, such as the Sustainable Development Goals (SDGs), requires high-quality data that must be produced in a consistent and comparable manner across different national statistical systems.
+
+## What is the SPI Data Portal?
+
+The World Bank [SPI data portal](https://datanalytics.worldbank.org/SPI/) is a comprehensive source of information for monitoring statistical performance across countries. The website allows users to learn about the SPI framework, compare statistical performance across economies, access the open code on Github, reproduce the SPI, and much more.
+
+## What is the difference between the SPI and its predecessor, the Statistical Capacity Index?
+
+National statistical systems (NSS) have advanced their data collection and dissemination practices, and the Sustainable Development Goals have set an ambitious development agenda to end poverty, protect the planet, and ensure prosperity for all by 2030. This, in turn, has increased the demand for data and has raised the bar for national statistical systems to produce high-quality statistics. The SPI aims to improve on the Statistical Capacity Index (SCI) to better reflect the changing global data landscape.
+
+The SCI, first produced in 2004, provided data on 146 economies; the SPI covers 174 economies, with data on selected indicators available for 217 economies. The SPI framework covers several of the same topics as the SCI, such as statistical methodology, data, and periodicity, but expands into new areas as well. The SCI relied on fewer information sources and did not include indicators from labor force surveys, establishment surveys, or administrative data. It also did not assess data dissemination practices or data use. The SCI was primarily focused on statistical output and activities and did not consider the infrastructure and financing of statistical systems, nor did it assess whether data users consider NSS products useful.
+
+The SPI framework aims to do all these things—and more. It uses 51 indicators to assess performance organized according to five pillars: data use, data services, data products, data sources, and data infrastructure. It benefits from large scale data collection efforts by organizations such as the World Bank, IMF, Open Data Watch, PARIS21, the ILO, WHO, UNESCO, IHSN, and the UN, among others.
+
+Please see the technical note for more details.
+
+## What are the pillars of the SPI framework?
+
+The SPI overall score is based on five pillars of statistical performance:
+
+**Data Use**: Statistics have value only if they are used. A successful statistical system produces data that are used widely and frequently.
+
+**Data Services**:  A range of services connects data users to producers and facilitate dialogues between them, thus building trust and adding value to data.
+
+**Data Products**:  The feedback systems between data producers and data users drive the design and help increase the range of statistical products available, and can help improve their accuracy, timeliness, frequency, comparability, and levels of disaggregation. The availability and quality of key NSS data products signal whether countries can produce indicators needed to measure progress toward the 17 Sustainable Development Goals.
+
+**Data Sources**:  To create useful products, a statistical system needs to draw on sources inside and outside the government. Modern data collection thus goes beyond the typical censuses and surveys to include administrative and geospatial data, as well as data generated by private firms and citizens.
+
+**Data Infrastructure**:  A mature statistical system has well-developed institutional infrastructure (legislation, governance, standards), soft infrastructure (skills, partnerships), and the financial resources to deliver useful—and widely used—data products and services.
+
+Underpinning these five pillars are 22 dimensions and 51 indicators. Please visit the framework page for more details.
+
+## What are the selection criteria for including indicators in the SPI?
+
+The 51 indicators included in the framework were selected based on their relevance and data availability, after consultations with experts and stakeholders.
+
+How are the scores for each pillar and the overall score calculated?
+The scores for each pillar are calculated using the scores for the underlying dimensions, which in turn are derived from the values of their indicators. The overall SPI score is an average of the scores for the five pillars.
+
+Pillars 1, 2, 4, and 5 take the unweighted averages of their underlying dimensions. Pillar 3 (which relies on the UN Global SDG monitoring database) takes a weighted average of its own four dimensions, with weights based on the number of SDGs in each dimension. The detailed methodology is available here.
+
+For the overall score countries can achieve a maximum of 100 and a minimum of 0. A score of 100 would indicate that a country has every single element that the SPI measures in place, and a score of 0 that none are in place.
+
+The SPI is designed to treat all five dimensions as equally important. However, users can customize the weights here and see the impact on the overall score. The list of indicators is here.
+
+## What are the main data sources for indicators in the SPI?
+
+Data come from the World Bank, IMF, Open Data Watch, PARIS21, ILO, WHO, UNESCO, IHSN, UN, and FAO. The full list of data sources is available here.
+
+## How can I access the SPI data?
+
+The SPI data are accessible from GitHub and the World Bank Data Catalog.
+
+## How many economies are covered in the SPI? 
+
+Data on statistical performance is available for 217 economies. Of these, there are 174 countries with sufficient data to compute the Statistical Performance Index (this set of countries covers 99.2 percent of the world population).
+
+The SPI technical report presents scores for countries according to region, income group, World Bank lending category, as well as for the Fragile and Conflict Situation group of countries.  Some economies do not have an SPI overall score because information is lacking for one or more of the dimensions, but partial information may be available in these cases.  
+
+## What time period does the SPI cover?
+
+The overall SPI score is currently available for countries from 2016 to 2019.  Some indicators have data going back to 2004. 
+
+## How frequently does the SPI get updated, and when?
+
+Once a year, in March.
+
+## How can I get in touch, ask questions, or provide feedback?
+
+The mission of the World Bank's Development Data Group is to provide high-quality national and international statistics to clients inside and outside the Bank and to improve the capacity of member countries to produce and use statistical information.
+
+The SPI team makes every effort to ensure that the data used for the Statistical Performance Indicators are accurate, but some sources we use may occasionally become out of date or inaccurate. Countries and other users can inquire about the values that make up the indicators by emailing us at: [spi@worldbank.org](mailto:spi@worldbank.org)

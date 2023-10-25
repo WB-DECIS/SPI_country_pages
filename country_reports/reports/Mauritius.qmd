@@ -1,0 +1,15 @@
+---
+title: "Mauritius"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Mauritius.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Upper middle income
+image: images/MU.png
+---
+
+This is the Mauritius Country Report.
+<iframe src="charts/Mauritius_chart.html" width="800" height="600"></iframe>
+

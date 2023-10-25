@@ -1,0 +1,15 @@
+---
+title: "Benin"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Benin.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/BJ.png
+---
+
+This is the Benin Country Report.
+<iframe src="charts/Benin_chart.html" width="800" height="600"></iframe>
+

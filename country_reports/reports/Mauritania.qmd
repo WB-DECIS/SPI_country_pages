@@ -1,0 +1,15 @@
+---
+title: "Mauritania"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Mauritania.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/MR.png
+---
+
+This is the Mauritania Country Report.
+<iframe src="charts/Mauritania_chart.html" width="800" height="600"></iframe>
+

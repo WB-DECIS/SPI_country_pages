@@ -1,0 +1,15 @@
+---
+title: "Estonia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Estonia.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/EE.png
+---
+
+This is the Estonia Country Report.
+<iframe src="charts/Estonia_chart.html" width="800" height="600"></iframe>
+

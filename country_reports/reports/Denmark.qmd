@@ -1,0 +1,15 @@
+---
+title: "Denmark"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Denmark.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/DK.png
+---
+
+This is the Denmark Country Report.
+<iframe src="charts/Denmark_chart.html" width="800" height="600"></iframe>
+

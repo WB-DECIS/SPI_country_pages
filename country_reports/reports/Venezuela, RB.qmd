@@ -1,0 +1,15 @@
+---
+title: "Venezuela, RB"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Venezuela, RB.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - Not classified
+image: images/VE.png
+---
+
+This is the Venezuela, RB Country Report.
+<iframe src="charts/Venezuela, RB_chart.html" width="800" height="600"></iframe>
+

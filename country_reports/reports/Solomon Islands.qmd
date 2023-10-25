@@ -1,0 +1,15 @@
+---
+title: "Solomon Islands"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Solomon Islands.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Lower middle income
+image: images/SB.png
+---
+
+This is the Solomon Islands Country Report.
+<iframe src="charts/Solomon Islands_chart.html" width="800" height="600"></iframe>
+

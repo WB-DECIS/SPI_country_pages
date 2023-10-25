@@ -1,0 +1,15 @@
+---
+title: "Morocco"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Morocco.
+categories:
+    - Statistical Performance
+    - Middle East & North Africa
+    - Lower middle income
+image: images/MA.png
+---
+
+This is the Morocco Country Report.
+<iframe src="charts/Morocco_chart.html" width="800" height="600"></iframe>
+

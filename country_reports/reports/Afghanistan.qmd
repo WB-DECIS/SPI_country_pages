@@ -1,0 +1,15 @@
+---
+title: "Afghanistan"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Afghanistan.
+categories:
+    - Statistical Performance
+    - South Asia
+    - Low income
+image: images/AF.png
+---
+
+This is the Afghanistan Country Report.
+<iframe src="charts/Afghanistan_chart.html" width="800" height="600"></iframe>
+

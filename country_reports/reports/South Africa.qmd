@@ -1,0 +1,15 @@
+---
+title: "South Africa"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of South Africa.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Upper middle income
+image: images/ZA.png
+---
+
+This is the South Africa Country Report.
+<iframe src="charts/South Africa_chart.html" width="800" height="600"></iframe>
+

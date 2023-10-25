@@ -1,0 +1,15 @@
+---
+title: "American Samoa"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of American Samoa.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - High income
+image: images/AS.png
+---
+
+This is the American Samoa Country Report.
+<iframe src="charts/American Samoa_chart.html" width="800" height="600"></iframe>
+

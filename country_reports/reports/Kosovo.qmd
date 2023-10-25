@@ -1,0 +1,15 @@
+---
+title: "Kosovo"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Kosovo.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - Upper middle income
+image: images/XK.png
+---
+
+This is the Kosovo Country Report.
+<iframe src="charts/Kosovo_chart.html" width="800" height="600"></iframe>
+

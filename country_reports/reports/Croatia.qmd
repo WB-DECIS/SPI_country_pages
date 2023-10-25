@@ -1,0 +1,15 @@
+---
+title: "Croatia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Croatia.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/HR.png
+---
+
+This is the Croatia Country Report.
+<iframe src="charts/Croatia_chart.html" width="800" height="600"></iframe>
+

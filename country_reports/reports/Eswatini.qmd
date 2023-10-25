@@ -1,0 +1,15 @@
+---
+title: "Eswatini"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Eswatini.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/SZ.png
+---
+
+This is the Eswatini Country Report.
+<iframe src="charts/Eswatini_chart.html" width="800" height="600"></iframe>
+

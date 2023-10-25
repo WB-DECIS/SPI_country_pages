@@ -1,0 +1,15 @@
+---
+title: "Botswana"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Botswana.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Upper middle income
+image: images/BW.png
+---
+
+This is the Botswana Country Report.
+<iframe src="charts/Botswana_chart.html" width="800" height="600"></iframe>
+

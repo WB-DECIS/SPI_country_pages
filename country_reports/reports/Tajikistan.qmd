@@ -1,0 +1,15 @@
+---
+title: "Tajikistan"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Tajikistan.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - Lower middle income
+image: images/TJ.png
+---
+
+This is the Tajikistan Country Report.
+<iframe src="charts/Tajikistan_chart.html" width="800" height="600"></iframe>
+

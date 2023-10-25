@@ -1,0 +1,15 @@
+---
+title: "Bulgaria"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Bulgaria.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - Upper middle income
+image: images/BG.png
+---
+
+This is the Bulgaria Country Report.
+<iframe src="charts/Bulgaria_chart.html" width="800" height="600"></iframe>
+

@@ -1,0 +1,15 @@
+---
+title: "Thailand"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Thailand.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Upper middle income
+image: images/TH.png
+---
+
+This is the Thailand Country Report.
+<iframe src="charts/Thailand_chart.html" width="800" height="600"></iframe>
+

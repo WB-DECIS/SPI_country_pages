@@ -1,0 +1,15 @@
+---
+title: "Saudi Arabia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Saudi Arabia.
+categories:
+    - Statistical Performance
+    - Middle East & North Africa
+    - High income
+image: images/SA.png
+---
+
+This is the Saudi Arabia Country Report.
+<iframe src="charts/Saudi Arabia_chart.html" width="800" height="600"></iframe>
+

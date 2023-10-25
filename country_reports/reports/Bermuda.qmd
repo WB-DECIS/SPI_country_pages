@@ -1,0 +1,15 @@
+---
+title: "Bermuda"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Bermuda.
+categories:
+    - Statistical Performance
+    - North America
+    - High income
+image: images/BM.png
+---
+
+This is the Bermuda Country Report.
+<iframe src="charts/Bermuda_chart.html" width="800" height="600"></iframe>
+

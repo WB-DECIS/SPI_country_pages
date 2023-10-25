@@ -1,0 +1,15 @@
+---
+title: "Cambodia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Cambodia.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Lower middle income
+image: images/KH.png
+---
+
+This is the Cambodia Country Report.
+<iframe src="charts/Cambodia_chart.html" width="800" height="600"></iframe>
+

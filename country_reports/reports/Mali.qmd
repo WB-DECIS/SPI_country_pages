@@ -1,0 +1,15 @@
+---
+title: "Mali"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Mali.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Low income
+image: images/ML.png
+---
+
+This is the Mali Country Report.
+<iframe src="charts/Mali_chart.html" width="800" height="600"></iframe>
+

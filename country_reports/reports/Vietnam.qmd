@@ -1,0 +1,15 @@
+---
+title: "Vietnam"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Vietnam.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Lower middle income
+image: images/VN.png
+---
+
+This is the Vietnam Country Report.
+<iframe src="charts/Vietnam_chart.html" width="800" height="600"></iframe>
+

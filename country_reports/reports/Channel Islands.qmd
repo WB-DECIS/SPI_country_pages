@@ -1,0 +1,15 @@
+---
+title: "Channel Islands"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Channel Islands.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/JG.png
+---
+
+This is the Channel Islands Country Report.
+<iframe src="charts/Channel Islands_chart.html" width="800" height="600"></iframe>
+

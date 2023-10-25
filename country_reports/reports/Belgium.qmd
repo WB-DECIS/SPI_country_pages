@@ -1,0 +1,15 @@
+---
+title: "Belgium"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Belgium.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/BE.png
+---
+
+This is the Belgium Country Report.
+<iframe src="charts/Belgium_chart.html" width="800" height="600"></iframe>
+

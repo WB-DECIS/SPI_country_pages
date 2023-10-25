@@ -1,0 +1,15 @@
+---
+title: "Cyprus"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Cyprus.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/CY.png
+---
+
+This is the Cyprus Country Report.
+<iframe src="charts/Cyprus_chart.html" width="800" height="600"></iframe>
+

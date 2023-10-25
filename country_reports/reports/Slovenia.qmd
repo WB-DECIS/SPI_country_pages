@@ -1,0 +1,15 @@
+---
+title: "Slovenia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Slovenia.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/SI.png
+---
+
+This is the Slovenia Country Report.
+<iframe src="charts/Slovenia_chart.html" width="800" height="600"></iframe>
+

@@ -1,0 +1,15 @@
+---
+title: "Turks and Caicos Islands"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Turks and Caicos Islands.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - High income
+image: images/TC.png
+---
+
+This is the Turks and Caicos Islands Country Report.
+<iframe src="charts/Turks and Caicos Islands_chart.html" width="800" height="600"></iframe>
+

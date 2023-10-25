@@ -1,0 +1,15 @@
+---
+title: "Gibraltar"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Gibraltar.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/GI.png
+---
+
+This is the Gibraltar Country Report.
+<iframe src="charts/Gibraltar_chart.html" width="800" height="600"></iframe>
+

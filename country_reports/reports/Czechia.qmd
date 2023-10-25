@@ -1,0 +1,15 @@
+---
+title: "Czechia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Czechia.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/CZ.png
+---
+
+This is the Czechia Country Report.
+<iframe src="charts/Czechia_chart.html" width="800" height="600"></iframe>
+

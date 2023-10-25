@@ -1,0 +1,15 @@
+---
+title: "Brunei Darussalam"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Brunei Darussalam.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - High income
+image: images/BN.png
+---
+
+This is the Brunei Darussalam Country Report.
+<iframe src="charts/Brunei Darussalam_chart.html" width="800" height="600"></iframe>
+

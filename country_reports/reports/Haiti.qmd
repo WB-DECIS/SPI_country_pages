@@ -1,0 +1,15 @@
+---
+title: "Haiti"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Haiti.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - Lower middle income
+image: images/HT.png
+---
+
+This is the Haiti Country Report.
+<iframe src="charts/Haiti_chart.html" width="800" height="600"></iframe>
+

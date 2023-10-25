@@ -1,0 +1,15 @@
+---
+title: "Togo"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Togo.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Low income
+image: images/TG.png
+---
+
+This is the Togo Country Report.
+<iframe src="charts/Togo_chart.html" width="800" height="600"></iframe>
+

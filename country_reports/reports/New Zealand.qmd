@@ -1,0 +1,15 @@
+---
+title: "New Zealand"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of New Zealand.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - High income
+image: images/NZ.png
+---
+
+This is the New Zealand Country Report.
+<iframe src="charts/New Zealand_chart.html" width="800" height="600"></iframe>
+

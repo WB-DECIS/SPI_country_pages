@@ -1,0 +1,15 @@
+---
+title: "Seychelles"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Seychelles.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - High income
+image: images/SC.png
+---
+
+This is the Seychelles Country Report.
+<iframe src="charts/Seychelles_chart.html" width="800" height="600"></iframe>
+

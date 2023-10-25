@@ -1,0 +1,15 @@
+---
+title: "Bhutan"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Bhutan.
+categories:
+    - Statistical Performance
+    - South Asia
+    - Lower middle income
+image: images/BT.png
+---
+
+This is the Bhutan Country Report.
+<iframe src="charts/Bhutan_chart.html" width="800" height="600"></iframe>
+

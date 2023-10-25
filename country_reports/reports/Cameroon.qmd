@@ -1,0 +1,15 @@
+---
+title: "Cameroon"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Cameroon.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/CM.png
+---
+
+This is the Cameroon Country Report.
+<iframe src="charts/Cameroon_chart.html" width="800" height="600"></iframe>
+

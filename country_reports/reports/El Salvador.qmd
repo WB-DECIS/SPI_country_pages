@@ -1,0 +1,15 @@
+---
+title: "El Salvador"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of El Salvador.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - Upper middle income
+image: images/SV.png
+---
+
+This is the El Salvador Country Report.
+<iframe src="charts/El Salvador_chart.html" width="800" height="600"></iframe>
+

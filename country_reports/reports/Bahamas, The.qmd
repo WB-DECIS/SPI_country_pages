@@ -1,0 +1,15 @@
+---
+title: "Bahamas, The"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Bahamas, The.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - High income
+image: images/BS.png
+---
+
+This is the Bahamas, The Country Report.
+<iframe src="charts/Bahamas, The_chart.html" width="800" height="600"></iframe>
+

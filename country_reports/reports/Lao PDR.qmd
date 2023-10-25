@@ -1,0 +1,15 @@
+---
+title: "Lao PDR"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Lao PDR.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Lower middle income
+image: images/LA.png
+---
+
+This is the Lao PDR Country Report.
+<iframe src="charts/Lao PDR_chart.html" width="800" height="600"></iframe>
+

@@ -1,0 +1,15 @@
+---
+title: "Fiji"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Fiji.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Upper middle income
+image: images/FJ.png
+---
+
+This is the Fiji Country Report.
+<iframe src="charts/Fiji_chart.html" width="800" height="600"></iframe>
+

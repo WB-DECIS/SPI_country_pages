@@ -1,0 +1,15 @@
+---
+title: "Senegal"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Senegal.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/SN.png
+---
+
+This is the Senegal Country Report.
+<iframe src="charts/Senegal_chart.html" width="800" height="600"></iframe>
+

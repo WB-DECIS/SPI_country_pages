@@ -1,0 +1,15 @@
+---
+title: "Italy"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Italy.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/IT.png
+---
+
+This is the Italy Country Report.
+<iframe src="charts/Italy_chart.html" width="800" height="600"></iframe>
+

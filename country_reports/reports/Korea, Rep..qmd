@@ -1,0 +1,15 @@
+---
+title: "Korea, Rep."
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Korea, Rep..
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - High income
+image: images/KR.png
+---
+
+This is the Korea, Rep. Country Report.
+<iframe src="charts/Korea, Rep._chart.html" width="800" height="600"></iframe>
+

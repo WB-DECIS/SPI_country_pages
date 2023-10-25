@@ -1,0 +1,15 @@
+---
+title: "Panama"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Panama.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - High income
+image: images/PA.png
+---
+
+This is the Panama Country Report.
+<iframe src="charts/Panama_chart.html" width="800" height="600"></iframe>
+

@@ -1,0 +1,15 @@
+---
+title: "Iraq"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Iraq.
+categories:
+    - Statistical Performance
+    - Middle East & North Africa
+    - Upper middle income
+image: images/IQ.png
+---
+
+This is the Iraq Country Report.
+<iframe src="charts/Iraq_chart.html" width="800" height="600"></iframe>
+

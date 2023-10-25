@@ -1,0 +1,15 @@
+---
+title: "Maldives"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Maldives.
+categories:
+    - Statistical Performance
+    - South Asia
+    - Upper middle income
+image: images/MV.png
+---
+
+This is the Maldives Country Report.
+<iframe src="charts/Maldives_chart.html" width="800" height="600"></iframe>
+

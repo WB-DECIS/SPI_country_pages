@@ -1,0 +1,15 @@
+---
+title: "Georgia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Georgia.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - Upper middle income
+image: images/GE.png
+---
+
+This is the Georgia Country Report.
+<iframe src="charts/Georgia_chart.html" width="800" height="600"></iframe>
+

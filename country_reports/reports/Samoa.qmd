@@ -1,0 +1,15 @@
+---
+title: "Samoa"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Samoa.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Lower middle income
+image: images/WS.png
+---
+
+This is the Samoa Country Report.
+<iframe src="charts/Samoa_chart.html" width="800" height="600"></iframe>
+

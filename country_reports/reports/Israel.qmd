@@ -1,0 +1,15 @@
+---
+title: "Israel"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Israel.
+categories:
+    - Statistical Performance
+    - Middle East & North Africa
+    - High income
+image: images/IL.png
+---
+
+This is the Israel Country Report.
+<iframe src="charts/Israel_chart.html" width="800" height="600"></iframe>
+

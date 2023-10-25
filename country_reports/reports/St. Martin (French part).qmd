@@ -1,0 +1,15 @@
+---
+title: "St. Martin (French part)"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of St. Martin (French part).
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - High income
+image: images/MF.png
+---
+
+This is the St. Martin (French part) Country Report.
+<iframe src="charts/St. Martin (French part)_chart.html" width="800" height="600"></iframe>
+

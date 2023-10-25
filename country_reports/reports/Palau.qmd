@@ -1,0 +1,15 @@
+---
+title: "Palau"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Palau.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Upper middle income
+image: images/PW.png
+---
+
+This is the Palau Country Report.
+<iframe src="charts/Palau_chart.html" width="800" height="600"></iframe>
+

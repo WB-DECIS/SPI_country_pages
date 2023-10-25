@@ -1,0 +1,15 @@
+---
+title: "Marshall Islands"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Marshall Islands.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Upper middle income
+image: images/MH.png
+---
+
+This is the Marshall Islands Country Report.
+<iframe src="charts/Marshall Islands_chart.html" width="800" height="600"></iframe>
+

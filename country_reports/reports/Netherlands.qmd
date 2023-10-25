@@ -1,0 +1,15 @@
+---
+title: "Netherlands"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Netherlands.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/NL.png
+---
+
+This is the Netherlands Country Report.
+<iframe src="charts/Netherlands_chart.html" width="800" height="600"></iframe>
+

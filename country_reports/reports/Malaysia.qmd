@@ -1,0 +1,15 @@
+---
+title: "Malaysia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Malaysia.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Upper middle income
+image: images/MY.png
+---
+
+This is the Malaysia Country Report.
+<iframe src="charts/Malaysia_chart.html" width="800" height="600"></iframe>
+

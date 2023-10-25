@@ -1,0 +1,15 @@
+---
+title: "Isle of Man"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Isle of Man.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/IM.png
+---
+
+This is the Isle of Man Country Report.
+<iframe src="charts/Isle of Man_chart.html" width="800" height="600"></iframe>
+

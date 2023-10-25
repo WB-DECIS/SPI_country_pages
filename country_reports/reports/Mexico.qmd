@@ -1,0 +1,15 @@
+---
+title: "Mexico"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Mexico.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - Upper middle income
+image: images/MX.png
+---
+
+This is the Mexico Country Report.
+<iframe src="charts/Mexico_chart.html" width="800" height="600"></iframe>
+

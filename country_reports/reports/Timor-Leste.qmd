@@ -1,0 +1,15 @@
+---
+title: "Timor-Leste"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Timor-Leste.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Lower middle income
+image: images/TL.png
+---
+
+This is the Timor-Leste Country Report.
+<iframe src="charts/Timor-Leste_chart.html" width="800" height="600"></iframe>
+

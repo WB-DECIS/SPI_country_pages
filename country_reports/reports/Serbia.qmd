@@ -1,0 +1,15 @@
+---
+title: "Serbia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Serbia.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - Upper middle income
+image: images/RS.png
+---
+
+This is the Serbia Country Report.
+<iframe src="charts/Serbia_chart.html" width="800" height="600"></iframe>
+

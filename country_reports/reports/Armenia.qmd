@@ -1,0 +1,15 @@
+---
+title: "Armenia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Armenia.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - Upper middle income
+image: images/AM.png
+---
+
+This is the Armenia Country Report.
+<iframe src="charts/Armenia_chart.html" width="800" height="600"></iframe>
+

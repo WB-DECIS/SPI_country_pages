@@ -1,0 +1,15 @@
+---
+title: "Tuvalu"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Tuvalu.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Upper middle income
+image: images/TV.png
+---
+
+This is the Tuvalu Country Report.
+<iframe src="charts/Tuvalu_chart.html" width="800" height="600"></iframe>
+

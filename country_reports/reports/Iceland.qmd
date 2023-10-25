@@ -1,0 +1,15 @@
+---
+title: "Iceland"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Iceland.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/IS.png
+---
+
+This is the Iceland Country Report.
+<iframe src="charts/Iceland_chart.html" width="800" height="600"></iframe>
+

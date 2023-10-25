@@ -1,0 +1,15 @@
+---
+title: "Bangladesh"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Bangladesh.
+categories:
+    - Statistical Performance
+    - South Asia
+    - Lower middle income
+image: images/BD.png
+---
+
+This is the Bangladesh Country Report.
+<iframe src="charts/Bangladesh_chart.html" width="800" height="600"></iframe>
+

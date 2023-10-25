@@ -1,0 +1,15 @@
+---
+title: "Curacao"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Curacao.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - High income
+image: images/CW.png
+---
+
+This is the Curacao Country Report.
+<iframe src="charts/Curacao_chart.html" width="800" height="600"></iframe>
+

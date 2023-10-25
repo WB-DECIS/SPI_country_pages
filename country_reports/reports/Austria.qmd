@@ -1,0 +1,15 @@
+---
+title: "Austria"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Austria.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/AT.png
+---
+
+This is the Austria Country Report.
+<iframe src="charts/Austria_chart.html" width="800" height="600"></iframe>
+

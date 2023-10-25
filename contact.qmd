@@ -1,0 +1,10 @@
+---
+title: "Contact us"
+sidebar: false
+page-layout: article
+toc: false
+title-block-banner: true
+---
+
+
+The mission of the World Bank's Development Data Group is to provide high-quality national and international statistics to clients within and outside the Bank and to improve the capacity of member countries to produce and use statistical information. To contact us you can send an email at [SPI@worldbank.org](mailto:spi@worldbank.org)

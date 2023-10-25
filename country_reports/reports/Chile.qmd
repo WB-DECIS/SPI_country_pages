@@ -1,0 +1,15 @@
+---
+title: "Chile"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Chile.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - High income
+image: images/CL.png
+---
+
+This is the Chile Country Report.
+<iframe src="charts/Chile_chart.html" width="800" height="600"></iframe>
+

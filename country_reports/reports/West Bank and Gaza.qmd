@@ -1,0 +1,15 @@
+---
+title: "West Bank and Gaza"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of West Bank and Gaza.
+categories:
+    - Statistical Performance
+    - Middle East & North Africa
+    - Upper middle income
+image: images/PS.png
+---
+
+This is the West Bank and Gaza Country Report.
+<iframe src="charts/West Bank and Gaza_chart.html" width="800" height="600"></iframe>
+

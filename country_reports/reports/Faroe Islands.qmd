@@ -1,0 +1,15 @@
+---
+title: "Faroe Islands"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Faroe Islands.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/FO.png
+---
+
+This is the Faroe Islands Country Report.
+<iframe src="charts/Faroe Islands_chart.html" width="800" height="600"></iframe>
+

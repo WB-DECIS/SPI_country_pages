@@ -1,0 +1,15 @@
+---
+title: "Pakistan"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Pakistan.
+categories:
+    - Statistical Performance
+    - South Asia
+    - Lower middle income
+image: images/PK.png
+---
+
+This is the Pakistan Country Report.
+<iframe src="charts/Pakistan_chart.html" width="800" height="600"></iframe>
+

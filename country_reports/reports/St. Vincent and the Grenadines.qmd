@@ -1,0 +1,15 @@
+---
+title: "St. Vincent and the Grenadines"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of St. Vincent and the Grenadines.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - Upper middle income
+image: images/VC.png
+---
+
+This is the St. Vincent and the Grenadines Country Report.
+<iframe src="charts/St. Vincent and the Grenadines_chart.html" width="800" height="600"></iframe>
+

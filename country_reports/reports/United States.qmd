@@ -1,0 +1,15 @@
+---
+title: "United States"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of United States.
+categories:
+    - Statistical Performance
+    - North America
+    - High income
+image: images/US.png
+---
+
+This is the United States Country Report.
+<iframe src="charts/United States_chart.html" width="800" height="600"></iframe>
+

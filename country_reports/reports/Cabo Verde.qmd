@@ -1,0 +1,15 @@
+---
+title: "Cabo Verde"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Cabo Verde.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/CV.png
+---
+
+This is the Cabo Verde Country Report.
+<iframe src="charts/Cabo Verde_chart.html" width="800" height="600"></iframe>
+

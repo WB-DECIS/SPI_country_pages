@@ -1,0 +1,15 @@
+---
+title: "Paraguay"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Paraguay.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - Upper middle income
+image: images/PY.png
+---
+
+This is the Paraguay Country Report.
+<iframe src="charts/Paraguay_chart.html" width="800" height="600"></iframe>
+

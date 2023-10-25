@@ -1,0 +1,15 @@
+---
+title: "Uruguay"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Uruguay.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - High income
+image: images/UY.png
+---
+
+This is the Uruguay Country Report.
+<iframe src="charts/Uruguay_chart.html" width="800" height="600"></iframe>
+

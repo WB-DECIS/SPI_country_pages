@@ -1,0 +1,15 @@
+---
+title: "Sweden"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Sweden.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/SE.png
+---
+
+This is the Sweden Country Report.
+<iframe src="charts/Sweden_chart.html" width="800" height="600"></iframe>
+

@@ -1,0 +1,15 @@
+---
+title: "Russian Federation"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Russian Federation.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - Upper middle income
+image: images/RU.png
+---
+
+This is the Russian Federation Country Report.
+<iframe src="charts/Russian Federation_chart.html" width="800" height="600"></iframe>
+

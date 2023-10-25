@@ -1,0 +1,15 @@
+---
+title: "Libya"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Libya.
+categories:
+    - Statistical Performance
+    - Middle East & North Africa
+    - Upper middle income
+image: images/LY.png
+---
+
+This is the Libya Country Report.
+<iframe src="charts/Libya_chart.html" width="800" height="600"></iframe>
+

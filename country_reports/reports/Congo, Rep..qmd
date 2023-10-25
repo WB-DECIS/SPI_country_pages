@@ -1,0 +1,15 @@
+---
+title: "Congo, Rep."
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Congo, Rep..
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/CG.png
+---
+
+This is the Congo, Rep. Country Report.
+<iframe src="charts/Congo, Rep._chart.html" width="800" height="600"></iframe>
+

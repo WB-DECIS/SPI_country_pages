@@ -1,0 +1,15 @@
+---
+title: "French Polynesia"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of French Polynesia.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - High income
+image: images/PF.png
+---
+
+This is the French Polynesia Country Report.
+<iframe src="charts/French Polynesia_chart.html" width="800" height="600"></iframe>
+

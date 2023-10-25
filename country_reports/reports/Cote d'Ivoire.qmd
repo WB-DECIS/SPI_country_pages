@@ -1,0 +1,15 @@
+---
+title: "Cote d'Ivoire"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Cote d'Ivoire.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/CI.png
+---
+
+This is the Cote d'Ivoire Country Report.
+<iframe src="charts/Cote d'Ivoire_chart.html" width="800" height="600"></iframe>
+

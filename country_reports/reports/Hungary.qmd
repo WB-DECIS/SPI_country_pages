@@ -1,0 +1,15 @@
+---
+title: "Hungary"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Hungary.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/HU.png
+---
+
+This is the Hungary Country Report.
+<iframe src="charts/Hungary_chart.html" width="800" height="600"></iframe>
+

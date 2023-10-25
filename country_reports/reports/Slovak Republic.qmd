@@ -1,0 +1,15 @@
+---
+title: "Slovak Republic"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Slovak Republic.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/SK.png
+---
+
+This is the Slovak Republic Country Report.
+<iframe src="charts/Slovak Republic_chart.html" width="800" height="600"></iframe>
+

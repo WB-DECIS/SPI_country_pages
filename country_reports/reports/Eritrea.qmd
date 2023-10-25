@@ -1,0 +1,15 @@
+---
+title: "Eritrea"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Eritrea.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Low income
+image: images/ER.png
+---
+
+This is the Eritrea Country Report.
+<iframe src="charts/Eritrea_chart.html" width="800" height="600"></iframe>
+

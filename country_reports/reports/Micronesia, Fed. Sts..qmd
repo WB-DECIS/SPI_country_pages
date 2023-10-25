@@ -1,0 +1,15 @@
+---
+title: "Micronesia, Fed. Sts."
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Micronesia, Fed. Sts..
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Lower middle income
+image: images/FM.png
+---
+
+This is the Micronesia, Fed. Sts. Country Report.
+<iframe src="charts/Micronesia, Fed. Sts._chart.html" width="800" height="600"></iframe>
+

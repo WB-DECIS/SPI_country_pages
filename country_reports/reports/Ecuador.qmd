@@ -1,0 +1,15 @@
+---
+title: "Ecuador"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Ecuador.
+categories:
+    - Statistical Performance
+    - Latin America & Caribbean
+    - Upper middle income
+image: images/EC.png
+---
+
+This is the Ecuador Country Report.
+<iframe src="charts/Ecuador_chart.html" width="800" height="600"></iframe>
+

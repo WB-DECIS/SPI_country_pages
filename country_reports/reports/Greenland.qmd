@@ -1,0 +1,15 @@
+---
+title: "Greenland"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Greenland.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - High income
+image: images/GL.png
+---
+
+This is the Greenland Country Report.
+<iframe src="charts/Greenland_chart.html" width="800" height="600"></iframe>
+

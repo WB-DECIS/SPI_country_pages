@@ -1,0 +1,15 @@
+---
+title: "Kenya"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Kenya.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Lower middle income
+image: images/KE.png
+---
+
+This is the Kenya Country Report.
+<iframe src="charts/Kenya_chart.html" width="800" height="600"></iframe>
+

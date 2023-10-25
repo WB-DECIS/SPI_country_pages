@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Statistical Performance Indicators (SPI) Country Pages"
+  navbar:
+    background: "#f0eeeb"
+    logo: images/spi_logo.png
+    logo-alt: "SPI brand"
+    title: false
+    collapse-below: lg
+    right:
+      - country_reports/index.qmd
+      - text: "About SPI"
+        menu: 
+        - text: "Who we are"
+          href: about-spi.qmd
+        - text: "Contact us"
+          href: contact.qmd
+          
+  sidebar: 
+    - title: "About us"
+      contents:
+        - about-spi.qmd
+        - contact.qmd
+ 
+
+format:
+  html:
+    theme: [lux, spi.scss]
+    css: spi.css
+    toc: true
+    grid:
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 250px
+
+

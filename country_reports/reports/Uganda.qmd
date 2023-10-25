@@ -1,0 +1,15 @@
+---
+title: "Uganda"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Uganda.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Low income
+image: images/UG.png
+---
+
+This is the Uganda Country Report.
+<iframe src="charts/Uganda_chart.html" width="800" height="600"></iframe>
+

@@ -1,0 +1,15 @@
+---
+title: "Yemen, Rep."
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Yemen, Rep..
+categories:
+    - Statistical Performance
+    - Middle East & North Africa
+    - Low income
+image: images/YE.png
+---
+
+This is the Yemen, Rep. Country Report.
+<iframe src="charts/Yemen, Rep._chart.html" width="800" height="600"></iframe>
+

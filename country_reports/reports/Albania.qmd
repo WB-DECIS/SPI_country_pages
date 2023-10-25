@@ -1,0 +1,15 @@
+---
+title: "Albania"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Albania.
+categories:
+    - Statistical Performance
+    - Europe & Central Asia
+    - Upper middle income
+image: images/AL.png
+---
+
+This is the Albania Country Report.
+<iframe src="charts/Albania_chart.html" width="800" height="600"></iframe>
+

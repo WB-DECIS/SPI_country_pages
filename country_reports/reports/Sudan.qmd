@@ -1,0 +1,15 @@
+---
+title: "Sudan"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Sudan.
+categories:
+    - Statistical Performance
+    - Sub-Saharan Africa
+    - Low income
+image: images/SD.png
+---
+
+This is the Sudan Country Report.
+<iframe src="charts/Sudan_chart.html" width="800" height="600"></iframe>
+

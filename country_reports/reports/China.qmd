@@ -1,0 +1,15 @@
+---
+title: "China"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of China.
+categories:
+    - Statistical Performance
+    - East Asia & Pacific
+    - Upper middle income
+image: images/CN.png
+---
+
+This is the China Country Report.
+<iframe src="charts/China_chart.html" width="800" height="600"></iframe>
+

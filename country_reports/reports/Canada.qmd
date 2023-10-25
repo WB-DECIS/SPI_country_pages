@@ -1,0 +1,15 @@
+---
+title: "Canada"
+subtitle: "SPI Country Brief"
+description: |
+  SPI country reports are designed to give an overview of the performance of Canada.
+categories:
+    - Statistical Performance
+    - North America
+    - High income
+image: images/CA.png
+---
+
+This is the Canada Country Report.
+<iframe src="charts/Canada_chart.html" width="800" height="600"></iframe>
+
