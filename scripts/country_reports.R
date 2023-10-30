@@ -12,7 +12,7 @@ countries <- wbstats::wb_countries() %>%
 # Convert the dataframe to a list of lists
 countries <- split(countries, 1:nrow(countries))
 
-#countries <- countries[1]
+countries <- sample(countries, 25)
 
 year <- 2022
 # Loop through the list of countries and generate .qmd files

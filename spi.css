@@ -3,7 +3,7 @@
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-size: 1em;
 }
 
@@ -47,12 +47,12 @@
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #6096ba;
+  color: #002244;
   font-weight: 400;
 }
 
 .navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active {
-  color: #6096ba;
+  color: #002244;
 }
 
 .nav-item {
@@ -106,7 +106,7 @@
   margin-top: -1px;
   margin-bottom: 1.8em;
   border-bottom: 1px solid black;
-  background-color: #e7ecef;
+  background-color: #FFFFFF;
 }
 
 .quarto-title-banner {
@@ -147,10 +147,10 @@
 
 .quarto-title .quarto-categories .quarto-category {
   padding: 0.25em 0.75em;
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-size: .9em;
   font-weight: 400;
-  color: #6096ba;
+  color: #009FDA;
   text-transform: uppercase;
   border: solid 1px;
   border-radius: 0.25rem;
@@ -162,7 +162,7 @@
 }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta-heading {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   text-transform: uppercase;
   margin-top: 1em;
   font-size: 0.9em;
@@ -171,7 +171,7 @@
 }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta-contents {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   text-transform: uppercase;
   font-weight: 300;
   opacity: 0.8;
@@ -183,11 +183,11 @@
 
 body.nav-fixed {
   padding-top: auto;
-  background-color: #e7ecef;
+  background-color: #FFFFFF;
 }
 
 #quarto-content {
-  background-color: #e7ecef;
+  background-color: #FFFFFF;
 }
 
 #quarto-content>* {
@@ -218,7 +218,7 @@ blockquote {
 }
 
 .citation a, .footnote-ref {
-  color: #6096ba;
+  color: #009FDA;
   font-weight: 700;
 }
 
@@ -233,7 +233,7 @@ div.csl-entry {
 
 #quarto-appendix.default {
   border-top: none;
-  background-color: #e7ecef;
+  background-color: #FFFFFF;
   padding-top: 0;
   margin-top: 2.5em;
 }
@@ -266,7 +266,7 @@ div.csl-entry {
 }
 
 .article-btn p {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-size: 1.3em;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -282,7 +282,7 @@ div.csl-entry {
 }
 
 .article-btn a:hover {
-  color: #6096ba;
+  color: #009FDA;
 }
 
 .further-info {
@@ -318,7 +318,7 @@ div.csl-entry {
 }
 
 .nav-btn p {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-size: 1.3em;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -334,14 +334,14 @@ div.csl-entry {
 }
 
 .nav-btn a:hover {
-  color: #6096ba;
+  color: #009FDA;
 }
 
 
 /*-- sidebar --*/
 
 .sidebar nav[role=doc-toc]>h2, .sidebar nav[role=doc-toc]>.h2 {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-size: .875rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -353,9 +353,9 @@ div.csl-entry {
 }
 
 .sidebar nav[role=doc-toc] ul>li>a.active {
-  border-left: 1px solid #6096ba;
+  border-left: 1px solid #009FDA;
   font-weight: 500;
-  color: #6096ba !important;
+  color: #009FDA !important;
 }
 
 .sidebar nav[role=doc-toc]>ul a {
@@ -364,7 +364,7 @@ div.csl-entry {
 }
 
 .sidebar nav[role=doc-toc]>ul li a {
-  font-family: 'Montserrat';
+  font-family: 'Andes';
   font-weight: 500;
   line-height: 1.1rem;
   padding-bottom: 0.2rem;
@@ -373,18 +373,18 @@ div.csl-entry {
 }
 
 .sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
-  border-left: 1px solid #6096ba;
-  color: #6096ba !important;
+  border-left: 1px solid #009FDA;
+  color: #009FDA !important;
 }
 
 .toc-actions a {
-  font-family: 'Montserrat';
+  font-family: 'Andes';
   font-weight: 500;
   color: black;
 }
 
 .toc-actions a:hover {
-  color: #6096ba;
+  color: #009FDA;
 }
 
 #quarto-margin-sidebar .toc-actions .bi:before {
@@ -392,7 +392,7 @@ div.csl-entry {
 }
 
 .column-margin figcaption, .margin-caption, div.aside, aside, .column-margin p {
-  font-family: 'Montserrat';
+  font-family: 'Andes';
   font-weight: 400;
   color: black;
   font-size: .825rem;
@@ -400,7 +400,7 @@ div.csl-entry {
 }
 
 .column-margin, .figure-caption a {
-  color: #6096ba;
+  color: #009FDA;
   font-weight: 700;
 }
 
@@ -418,7 +418,7 @@ div.csl-entry {
 }
 
 .pullquote p {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-weight: 500;
   font-size: calc(1.345rem + 0.85vw);
   color: black;
@@ -457,7 +457,7 @@ h5,
 .h5
 h6,
 .h6 {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   text-transform: none;
   letter-spacing: normal;
   font-weight: 500;
@@ -466,7 +466,7 @@ h6,
 }
 
 h1, .h1 {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-weight: 500;
   color: black;
   text-transform: uppercase;
@@ -475,7 +475,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-weight: 500;
   color: black;
   text-transform: none;
@@ -491,7 +491,7 @@ h2, .h2 {
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: 'Andes';
   font-weight: 400;
   color: black;
   letter-spacing: normal;
@@ -502,26 +502,26 @@ a {
 }
 
 p > a {
-  color: #6096ba;
+  color: #009FDA;
   font-weight: 700;
 }
 
 b, strong a {
-  color: #6096ba;
+  color: #009FDA;
 }
 
 ul a {
-  color: #6096ba;
+  color: #009FDA;
   font-weight: 700;
 }
 
 li > a {
-  color: #6096ba;
+  color: #009FDA;
   font-weight: 700;
 }
 
 dd a {
-  color: #6096ba;
+  color: #009FDA;
   font-weight: 700;
 }
 
@@ -549,15 +549,15 @@ div.quarto-post {
 }
 
 div.quarto-post .metadata {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-weight: 300;
   text-transform: uppercase;
 }
 
 div.quarto-post .listing-categories .listing-category {
-  color: #6096ba;
-  border: solid 1px #6096ba;
-  font-family: 'Oswald';
+  color: #009FDA;
+  border: solid 1px #009FDA;
+  font-family: 'Andes';
   font-weight: 400;
   font-size: .75em;
 }
@@ -579,11 +579,11 @@ div.quarto-post a {
 
 .quarto-listing-category .category.active {
   font-weight: 500;
-  color: #6096ba;
+  color: #009FDA;
 }
 
 .nav-page .nav-page-text {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-weight: 500;
   text-transform: uppercase;
   color: black;
@@ -598,12 +598,12 @@ div.quarto-post a {
 
 .quarto-grid-item {
   border: none;
-  background-color: #e7ecef;
+  background-color: #FFFFFF;
 }
 
 .quarto-grid-item.borderless {
   border: none;
-  background-color: #e7ecef;
+  background-color: #FFFFFF;
 }
 
 .quarto-grid-item div.post-contents {
@@ -622,9 +622,9 @@ div.quarto-post a {
 }
 
 .quarto-grid-item .listing-categories .listing-category {
-  color: #6096ba;
-  border: solid 1px #6096ba !important;
-  font-family: 'Oswald';
+  color: #009FDA;
+  border: solid 1px #009FDA !important;
+  font-family: 'Andes';
   font-weight: 400;
   font-size: .75em;
 }
@@ -634,7 +634,7 @@ div.quarto-post a {
 }
 
 .quarto-grid-item .card-attribution {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-weight: 300;
   color: black;
   flex-grow: 10;
@@ -660,7 +660,7 @@ div.quarto-post a {
 }
 
 .purple-background {
-  background-color: #6096ba;
+  background-color: #009FDA;
 }
 
 .blue-background {
@@ -761,7 +761,7 @@ div.quarto-post a {
 }
 
 .listing-block h2:hover {
-  color: #6096ba;
+  color: #009FDA;
 }
 
 
@@ -790,14 +790,14 @@ div.quarto-post a {
 
 .pullout-text p {
   text-align: center;
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-weight: 500;
   color: white;
   margin-left: 1.5em;
   margin-right: 1.5em;
   text-transform: uppercase;
   text-decoration: underline;
-  text-decoration-color: #6096ba;
+  text-decoration-color: #009FDA;
   text-decoration-thickness: 3px;
   margin-bottom: 1.5rem;
 }
@@ -819,7 +819,7 @@ div.quarto-post a {
 
 .button p {
   color: black;
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-size: 1.3em;
   text-transform: uppercase;
   margin-bottom: 0px;
@@ -832,7 +832,7 @@ div.quarto-post a {
 }
 
 .button a:hover {
-  color: #6096ba;
+  color: #009FDA;
 }
 
 
@@ -846,7 +846,7 @@ div.quarto-post a {
 }
 
 .footer-text h3, .h3 {
-  font-family: 'Oswald';
+  font-family: 'Andes';
   color: white;
   font-size: .875rem;
   font-weight: 500;
@@ -871,7 +871,7 @@ div.quarto-post a {
 }
 
 .footer-text p > a:hover {
-  color: #6096ba;
+  color: #009FDA;
   font-size: .875rem;
   font-weight: 400;
 }
@@ -889,14 +889,14 @@ div.quarto-post a {
 
 .nav-footer {
   color: white;
-  font-family: 'Oswald';
+  font-family: 'Andes';
   font-weight: 400;
   padding-left: 1.5em !important;
   padding-right: 1.5em !important;
 }
 
 body:not(.floating) .nav-footer {
-  border-top: 1px solid #e7ecef;
+  border-top: 1px solid #FFFFFF;
 }
 
 .nav-footer a {
@@ -904,7 +904,7 @@ body:not(.floating) .nav-footer {
 }
 
 .nav-footer a:hover {
-  color: #6096ba;
+  color: #009FDA;
 }
 
 .nav-footer-left .footer-items .nav-link, .nav-footer-center .footer-items .nav-link, .nav-footer-right .footer-items .nav-link {
@@ -919,11 +919,11 @@ body:not(.floating) .nav-footer {
 }
 
 .nav-footer-left {
-  font-family: 'Montserrat';
+  font-family: 'Andes';
 }
 
 .nav-footer-right {
-  font-family: 'Montserrat';
+  font-family: 'Andes';
 }
 
 
@@ -945,7 +945,7 @@ body:not(.floating) .nav-footer {
 
 /* webR */
 .btn-webr {
-  background-color: #6096ba;
+  background-color: #009FDA;
   color: white;
 }
 

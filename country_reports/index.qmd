@@ -17,3 +17,11 @@ listing:
 ---
 
 For further details see our [SPI data explorer](https://datanalytics.worldbank.org/SPI/) and our [code and data](https://github.com/worldbank/SPI) on github. 
+
+```{r}
+library(tidyverse)
+library(here)
+library(downloadthis)
+```
+
+{{< downloadthis reports/files/SPI_data.xlsx dname=SPI_Index label="Download the SPI data" icon=database-fill-down type=info class=data-button id=spi >}}

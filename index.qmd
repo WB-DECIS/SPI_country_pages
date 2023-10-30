@@ -17,8 +17,10 @@ listing:
     filter-ui: false
     page-size: 9
     feed: true
-
 toc: false
+execute:
+    echo: false
+    warning: false
 ---
 ::: {.content-container}
 ::: {.top-story .callout}
@@ -34,7 +36,13 @@ Reliable, usable, high-quality statistics are vital for global prosperity and pr
 
 :::
 ::: {.g-col-12 .g-col-lg-8 .top-story-img}
-![](images/map-1.png)
+
+```{=html}
+
+<div class="flourish-embed flourish-map" data-src="visualisation/6134310?145304"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
 :::
 :::
 
@@ -47,6 +55,15 @@ Reliable, usable, high-quality statistics are vital for global prosperity and pr
 ::: {.content-container}
 ::: {.header-block}
 Welcome to the **Statistical Performance Indicators (SPI)** country pages. The [SPI](https://www.worldbank.org/en/programs/statistical-performance-indicators) framework assesses the maturity and performance of national statistical systems. 
+
+```{r}
+library(tidyverse)
+library(here)
+library(downloadthis)
+```
+
+{{< downloadthis country_reports/reports/files/SPI_data.xlsx dname=SPI_Index label="Download the SPI data" icon=database-fill-down type=info class=data-button id=spi >}}
+
 :::
 :::
 :::
