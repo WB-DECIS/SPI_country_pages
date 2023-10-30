@@ -22,6 +22,14 @@ execute:
     echo: false
     warning: false
 ---
+
+```{r}
+library(tidyverse)
+library(here)
+library(downloadthis)
+library(highcharter)
+```
+
 ::: {.content-container}
 ::: {.top-story .callout}
 
@@ -32,16 +40,101 @@ execute:
 
 ## The SPI framework assesses the maturity and performance of national statistical systems
 
-Reliable, usable, high-quality statistics are vital for global prosperity and progress. The Statistical Performance Indicators (SPI) provide an open-source framework for assessing the performance of statistical systems and the efforts to improve them. This page provides detailed country reports for the SPI.  Click to visit.
 
 :::
 ::: {.g-col-12 .g-col-lg-8 .top-story-img}
 
-```{=html}
+```{r}
 
-<div class="flourish-embed flourish-map" data-src="visualisation/6134310?145304"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+ df_overall<- read_csv(here('data','SPI_index.csv'))  %>%
+            select(iso3c, country, region,  income, date, starts_with('SPI'), population) %>%
+            filter(date==2022) 
+
+        
+        
+
+
+load(here('data','WB_geojson.Rdata'))
+
+
+ map_df <- df_overall %>%
+        filter(!(country %in% c('Greenland'))) %>% #drop a few countries for which we do not collect data.
+        #summarise(across(!! indicator,last)) %>%
+        select(SPI.INDEX, everything()) %>%
+        mutate(data_available= .[[1]]) %>%
+        mutate(data_available=if_else(is.na(data_available) | data_available==-99, as.numeric(NA), round(as.numeric(data_available),1)))     %>%
+        rename_with(~gsub(".","_",.x, fixed=TRUE)) 
+      
+      
+      
+
+      
+      
+      
+
+        
+        spi_groups_quantiles <- quantile(map_df$data_available, probs=c(1,2,3,4)/5,na.rm=T)
+        
+        
+        SPI_map <- map_df %>%
+          mutate(spi_groups=case_when(
+            between(data_available, spi_groups_quantiles[4],100) ~ "Top 20%",
+            between(data_available, spi_groups_quantiles[3],spi_groups_quantiles[4]) ~ "4th Quintile",
+            between(data_available, spi_groups_quantiles[2],spi_groups_quantiles[3]) ~ "3rd Quintile",
+            between(data_available, spi_groups_quantiles[1],spi_groups_quantiles[2]) ~ "2nd Quintile",
+            between(data_available, 0,spi_groups_quantiles[1]) ~ "Bottom 20%"
+            
+          )) %>%
+          mutate(spi_groups=factor(spi_groups, 
+                                   levels=c("Top 20%","4th Quintile","3rd Quintile","2nd Quintile","Bottom 20%" )),
+                 value = as.numeric(spi_groups))  
+          
+        
+        #set color pallete
+        col_pal <- c("#2ec4b6","#acece7","#f1dc76","#ffbf69","#ff9f1c")  
+        names(col_pal) <- c("Top 20%","4th Quintile","3rd Quintile","2nd Quintile","Bottom 20%" )
+        
+        SPI_highchart_map <- highchart(type = "map") %>%
+          hc_add_series(mapData = countries,
+                        data=SPI_map,
+                        joinBy=c('ISO_A3','iso3c'),
+                        name='SPI_INDEX',
+                        value='value',
+                        borderColor='white',
+                        tooltip = list(
+                          pointFormat = "{point.country}: {point.data_available:,.1f} <br>
+                                         <b>SPI Overall Score:</b> {point.SPI_INDEX:,.1f} <br>
+                                         <b>Data User Score: </b> {point.SPI_INDEX_PIL1:,.1f} <br>
+                                         <b>Data Services Score: </b> {point.SPI_INDEX_PIL2:,.1f} <br>u
+                                         <b>Data Products Score: </b> {point.SPI_INDEX_PIL3:,.1f} <br>
+                                         <b>Data Sources Score: </b> {point.SPI_INDEX_PIL4:,.1f} <br>
+                                         <b>Data Infrastructure Score: </b> {point.SPI_INDEX_PIL5:,.1f}"
+                          
+                        )
+          ) %>%
+          hc_colorAxis(dataClassColor="category", 
+                       dataClasses = list(list(from=1, to=1, color="#2ec4b6", name="Top 20%"),
+                                          list(from=2, to=2, color="#acece7", name="4th Quintile"),
+                                          list(from=3, to=3, color="#f1dc76", name="3rd Quintile"),
+                                          list(from=4, to=4, color="#ffbf69", name="2nd Quintile"),
+                                          list(from=5, to=5, color="#ff9f1c", name="Bottom 20%"))) %>% 
+          hc_mapNavigation(
+            enabled = TRUE,
+            enableMouseWheelZoom = TRUE,
+            enableDoubleClickZoom = TRUE
+          ) %>%
+          hc_legend(
+            verticalAlign = "top"
+          ) %>%
+          hc_title(
+            text = "The SPI overall score combines the 50+ indicators into single measure",
+            style = list(fontFamily = "Andes")) 
+        
+        SPI_highchart_map
 
 ```
+
+
 
 :::
 :::
@@ -56,11 +149,9 @@ Reliable, usable, high-quality statistics are vital for global prosperity and pr
 ::: {.header-block}
 Welcome to the **Statistical Performance Indicators (SPI)** country pages. The [SPI](https://www.worldbank.org/en/programs/statistical-performance-indicators) framework assesses the maturity and performance of national statistical systems. 
 
-```{r}
-library(tidyverse)
-library(here)
-library(downloadthis)
-```
+Reliable, usable, high-quality statistics are vital for global prosperity and progress. The Statistical Performance Indicators (SPI) provide an open-source framework for assessing the performance of statistical systems and the efforts to improve them. This page provides detailed country reports for the SPI.  [Click to visit](./country_reports/index.qmd).
+
+
 
 {{< downloadthis country_reports/reports/files/SPI_data.xlsx dname=SPI_Index label="Download the SPI data" icon=database-fill-down type=info class=data-button id=spi >}}
 
