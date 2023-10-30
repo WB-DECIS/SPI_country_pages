@@ -143,29 +143,29 @@ country_report_lolli_fn <- function(variables, title, scale, country, year) {
     hc_title(text=title)
 }
 
-country_plots <-  function(cntry) {
+# country_plots <-  function(cntry) {
   
 
   
-  p0 <- country_report_lolli_fn('SPI.INDEX','Overall Index', 100, cntry, yr) %>% 
-    htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart.html")), selfcontained = FALSE)
+#   p0 <- country_report_lolli_fn('SPI.INDEX','Overall Index', 100, cntry, yr) %>% 
+#     htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart.html")), selfcontained = FALSE)
      
-   p1 <- country_report_lolli_fn('SPI.D1', "Pillar 1: Data Use",1, cntry, yr) %>% 
-   htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart1.html")), selfcontained = FALSE)
-   p2 <- country_report_lolli_fn('SPI.D2', "Pillar 2: Data Services",1, cntry, yr) %>% 
-     htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart2.html")), selfcontained = FALSE)
-   p3 <- country_report_lolli_fn('SPI.D3', "Pillar 3: Data Products",1, cntry, yr) %>% 
-     htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart3.html")), selfcontained = FALSE)
-   p4 <- country_report_lolli_fn('SPI.D4', "Pillar 4: Data Sources",1, cntry, yr) %>% 
-     htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart4.html")), selfcontained = FALSE)
-   p5 <- country_report_lolli_fn('SPI.D5', "Pillar 5: Data Infrastructure",1, cntry, yr) %>% 
-     htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart5.html")), selfcontained = FALSE)
+#    p1 <- country_report_lolli_fn('SPI.D1', "Pillar 1: Data Use",1, cntry, yr) %>% 
+#    htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart1.html")), selfcontained = FALSE)
+#    p2 <- country_report_lolli_fn('SPI.D2', "Pillar 2: Data Services",1, cntry, yr) %>% 
+#      htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart2.html")), selfcontained = FALSE)
+#    p3 <- country_report_lolli_fn('SPI.D3', "Pillar 3: Data Products",1, cntry, yr) %>% 
+#      htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart3.html")), selfcontained = FALSE)
+#    p4 <- country_report_lolli_fn('SPI.D4', "Pillar 4: Data Sources",1, cntry, yr) %>% 
+#      htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart4.html")), selfcontained = FALSE)
+#    p5 <- country_report_lolli_fn('SPI.D5', "Pillar 5: Data Infrastructure",1, cntry, yr) %>% 
+#      htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart5.html")), selfcontained = FALSE)
    
   
-}
+# }
 
-countries_list <- country_info %>%
-  filter(region!="Aggregates") %>%
-  select(country) 
+# countries_list <- country_info %>%
+#   filter(region!="Aggregates") %>%
+#   select(country) 
 
-lapply(countries_list$country, country_plots)
+# lapply(countries_list$country, country_plots)
