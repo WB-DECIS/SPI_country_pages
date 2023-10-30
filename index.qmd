@@ -15,7 +15,7 @@ listing:
     categories: false
     sort-ui: false
     filter-ui: false
-    max-items: 9
+    page-size: 9
     feed: true
 
 toc: false
@@ -53,7 +53,7 @@ Welcome to the **Statistical Performance Indicators (SPI)** country pages. The [
 
 <a href="/country_reports/index.qmd"> 
 
-## Click Here to View All Country Pages
+## Click Here to View Country Pages
 </a>
 
 
