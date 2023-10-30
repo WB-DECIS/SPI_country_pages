@@ -5,6 +5,7 @@ description: |
 sidebar: false
 section-divs: false
 image: images/SPI_logo.png
+site-url: https://stacybri.github.io/SPI_country_pages/
 listing:
   - id: country_reports
     contents: 
@@ -29,6 +30,8 @@ library(here)
 library(downloadthis)
 library(highcharter)
 ```
+
+::: {.column-screen}
 
 ::: {.content-container}
 ::: {.top-story .callout}
@@ -119,7 +122,7 @@ load(here('data','WB_geojson.Rdata'))
                                           list(from=4, to=4, color="#ffbf69", name="2nd Quintile"),
                                           list(from=5, to=5, color="#ff9f1c", name="Bottom 20%"))) %>% 
           hc_mapNavigation(
-            enabled = TRUE,
+            enabled = FALSE,
             enableMouseWheelZoom = TRUE,
             enableDoubleClickZoom = TRUE
           ) %>%
@@ -141,6 +144,7 @@ load(here('data','WB_geojson.Rdata'))
 
 </a>
 
+:::
 :::
 :::
 

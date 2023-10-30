@@ -3,6 +3,7 @@ pagetitle: Country Reports | Statistical Performance Indicators
 title: Country Reports
 subtitle: Choose a country of interest
 search: true  
+site-url: https://stacybri.github.io/SPI_country_pages/
 listing:
   contents: 
   - reports/
