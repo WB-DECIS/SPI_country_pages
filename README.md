@@ -6,4 +6,4 @@ Users can access that pages at [https://stacybri.github.io/SPI_country_pages/](h
 
 ## User Experience Demo
 
-![./images/SPI_country_pages_navigation.gif]
+![SPI Country Pages User Demo](./images/SPI_country_pages_navigation.gif)
