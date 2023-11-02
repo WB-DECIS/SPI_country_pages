@@ -41,12 +41,34 @@ year <-2022
 
 ```{r} 
 
+    country_report_beeswarm(cntry, yr)
+```
+
+::: {.column-margin} 
+
+ **SPI overall scores** provide an overall summary of the performance of statistical system. This index is produced by combining 50+ indicators into a single measure.  Scores range from 0-100. 
+
+::: 
+
+```{r} 
+
+    country_report_time_trends(cntry)
+```
+
+::: {.column-margin} 
+
+ The **SPI** allows the tracking of indicators over time.  SPI overall scores are available since 2016. 
+
+::: 
+
+```{r} 
+
     country_report_lolli_fn("SPI.INDEX", "SPI Overall Scores",100, cntry, yr)
 ```
 
 ::: {.column-margin} 
 
- The **SPI overall score** is based on five pillars of statistical performance: **data use**, **data services**, **data products**, **data sources**, and **data infrastructure**.  The scores for each pillar are shown in the table. 
+ The **SPI overall score** is based on five pillars of statistical performance: **data use**, **data services**, **data products**, **data sources**, and **data infrastructure**.  The scores for each pillar are shown in the figure. 
 
 ::: 
 

@@ -9,7 +9,13 @@ yr <- 2022
 SPI <- read_csv(here("data","SPI_index.csv")) %>%
   select(iso3c, country, region,  income, date, SPI.INDEX, everything())
 
-country_info <- wbstats::wb_countries()
+#country_info <- wbstats::wb_countries()
+#country_info %>%
+#  write_excel_csv(here("data","country_info.csv"))
+
+country_info <- read_csv(here("data","country_info.csv")) 
+
+
 metadata_raw <- read_csv(here("data","SPI_dimensions_sources.csv"))
 
 
@@ -80,8 +86,9 @@ lolli_df <- function(country_choice, year_choice) {
   #lollipop chart
       df_lolli %>%
       filter(country==country_choice) %>%
-      bind_rows(region_agg) %>%
-      bind_rows(income_agg) 
+      mutate(group=country_choice) %>%
+      bind_rows(region_agg %>% mutate(group="Region")) %>%
+      bind_rows(income_agg %>% mutate(group="Income Group")) 
 } 
 
 #################
@@ -140,32 +147,177 @@ country_report_lolli_fn <- function(variables, title, scale, country, year) {
                   type = "column") %>%
     hc_xAxis(type='category') %>%
     hc_yAxis(min=0,max=scale) %>%
-    hc_title(text=title)
+    hc_title(text=title,
+      style = list(fontSize = "20px",
+      fontWeight = "bold",
+      fontFamily = "Andes"
+    )
+    ) %>%
+  #make the colors hex code #023047, #ffb703, and #fb8500
+  hc_colors(c("#023047", "#ffb703", "#fb8500")) %>%  
+  hc_add_theme(hc_theme_smpl()) 
+
+
+    
 }
 
-# country_plots <-  function(cntry) {
-  
 
-  
-#   p0 <- country_report_lolli_fn('SPI.INDEX','Overall Index', 100, cntry, yr) %>% 
-#     htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart.html")), selfcontained = FALSE)
-     
-#    p1 <- country_report_lolli_fn('SPI.D1', "Pillar 1: Data Use",1, cntry, yr) %>% 
-#    htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart1.html")), selfcontained = FALSE)
-#    p2 <- country_report_lolli_fn('SPI.D2', "Pillar 2: Data Services",1, cntry, yr) %>% 
-#      htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart2.html")), selfcontained = FALSE)
-#    p3 <- country_report_lolli_fn('SPI.D3', "Pillar 3: Data Products",1, cntry, yr) %>% 
-#      htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart3.html")), selfcontained = FALSE)
-#    p4 <- country_report_lolli_fn('SPI.D4', "Pillar 4: Data Sources",1, cntry, yr) %>% 
-#      htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart4.html")), selfcontained = FALSE)
-#    p5 <- country_report_lolli_fn('SPI.D5', "Pillar 5: Data Infrastructure",1, cntry, yr) %>% 
-#      htmlwidgets::saveWidget(file = here("country_reports","reports","charts/",paste0(cntry, "_chart5.html")), selfcontained = FALSE)
-   
-  
-# }
 
-# countries_list <- country_info %>%
-#   filter(region!="Aggregates") %>%
-#   select(country) 
 
-# lapply(countries_list$country, country_plots)
+#turn previous code starting with agg_df into a function
+country_report_beeswarm <- function(cntry, year) {
+
+  agg_df <- lolli_df(cntry, year)
+
+  #create a highcharter plot that is a beeswarm plot with the SPI data plotted for column SPI.INDEX.  The data is filtered so the year is 2022.  Each point is the value for SPI.INDEX
+  df_beeswarm <- SPI %>% 
+    filter(date==year) %>%
+    filter(!is.na(SPI.INDEX)) 
+
+  #get all data for 2022  
+  df_beeswarm <- df_beeswarm %>%   
+    mutate(
+      density = density(SPI.INDEX, n=nrow(df_beeswarm))$y,
+      y = jitter(rep(1, nrow(.)), factor = 150*density)
+      ) %>%    
+    mutate(group="Other Countries") %>%
+    bind_rows(
+        agg_df %>% mutate(y=1)
+    ) %>%
+    mutate(SPI.INDEX=round(SPI.INDEX,1))
+
+    df_beeswarm <- df_beeswarm %>%
+      mutate(country=factor(country, levels=unique(df_beeswarm$country)))
+
+
+  #create a dataframe that is the data for the country selected
+  df_country <- df_beeswarm %>%
+    filter(country==cntry, group!="Other Countries")
+
+  #create a dataframe that is the data for the region selected
+  df_region <- df_beeswarm %>%
+    filter(group=="Region")
+
+  #create a dataframe that is the data for the income group selected
+  df_income <- df_beeswarm %>%
+    filter(group=="Income Group")
+
+  # create a dataframe for the other countries
+  df_other <- df_beeswarm %>%
+    filter(group=="Other Countries", country!=cntry)
+
+  hchart(df_other, "scatter", hcaes(x = SPI.INDEX, y=y, 
+    name=group, group=group, showInLegend=TRUE),
+    minSize=7, maxSize=20,
+    marker=list(symbol='circle', radius=5, fillColor='#8ecae6')
+    ) %>%
+    hc_add_series(data = df_country,
+                  hcaes(x=SPI.INDEX, y = y, name=country, group=group, showInLegend=TRUE),
+                  type = "scatter",
+                  marker=list(symbol='diamond', radius=8, fillColor='#023047')
+    ) %>%
+    hc_add_series(data = df_region,
+                  hcaes(x=SPI.INDEX, y = y,  name=country, group=country, showInLegend=TRUE),
+                  type = "scatter",
+                  marker=list(symbol='triangle', radius=8, fillColor='#ffb703')
+    ) %>%
+    hc_add_series(data = df_income,
+                  hcaes(x=SPI.INDEX, y = y, name=country, group=country, showInLegend=TRUE),
+                  type = "scatter",
+                  marker=list(symbol='square', radius=8, fillColor='#fb8500')
+    ) %>%
+    hc_plotOptions(series = list(stacking = "normal")) %>%
+    #remove yaxis title and labels
+    hc_yAxis(min = 1.1, max = .9, title = list(text = ""),
+      labels=list(enabled=FALSE),
+      ticklength=0) %>%
+    # change the marker symbol by group
+    hc_xAxis(title = list(text = "SPI Overall Score")
+      ) %>%
+    hc_title(
+      text = "The SPI overall score combines the 50+ indicators into single measure",
+      style = list(fontSize = "20px",
+        fontWeight = "bold",
+        fontFamily = "Andes"
+      )
+    ) %>%
+    # add tooltip info of country, SPI scores and so on
+    hc_tooltip(
+      useHTML = TRUE,
+      headerFormat = "",
+      pointFormat = "<b>{point.country}</b><br>Overall Score: {point.x}<br>",
+      footerFormat = "",
+      followPointer = TRUE
+    ) %>%
+    hc_add_theme(hc_theme_smpl()) 
+}
+
+
+country_report_time_trends <- function(cntry) {
+## time trends
+  df_trends <- SPI %>%
+        select(iso3c, country, region,  income, date, SPI.INDEX, population) %>%
+        rename(Score=SPI.INDEX) %>%
+        mutate(ISO_A3_EH=iso3c) 
+      
+      #need to get the aggregates for the income group and region
+      country_select_info <- country_info %>%
+        filter(country==cntry)
+      
+      region_name<-country_select_info$region
+      income_name<-country_select_info$income_level
+      
+      #produce aggregation
+      region_agg <- df_trends %>%
+        filter(region==region_name) %>%
+        group_by(date) %>%
+        summarise(across(starts_with('Score'),~round(mean(as.numeric(.), na.rm=T),2))) %>%
+        mutate(country=region_name)
+      
+      income_agg <- df_trends %>%
+        filter(income==income_name) %>%
+        group_by(date) %>%
+        summarise(across(starts_with('Score'),~round(mean(as.numeric(.), na.rm=T),2))) %>%
+        mutate(country=income_name)
+      
+        df_trends <- df_trends %>%
+          filter(country==cntry) %>%
+          bind_rows(region_agg) %>%
+          bind_rows(income_agg) %>%
+          filter(!is.na(Score))%>%
+          mutate(Score=round(Score, 1))
+
+        df_trends <- df_trends %>%
+          mutate(country=factor(country, levels=unique(df_trends$country)))
+
+        
+      hchart(
+        df_trends,
+        type='line',
+        hcaes(
+          x=date,
+          y=Score,
+          group=country
+        ),
+      ) %>%
+        hc_xAxis(
+          allowDecimals=FALSE
+        ) %>%
+    hc_title(
+      text = "Progress on the SPI can be tracked over time",
+      style = list(fontSize = "20px",
+        fontWeight = "bold",
+        fontFamily = "Andes"
+      )
+    ) %>%
+    # add tooltip info of country, SPI scores and so on
+    hc_tooltip(
+      useHTML = TRUE,
+      headerFormat = "",
+      pointFormat = "<b>{point.country}</b><br>Overall Score: {point.y}<br>",
+      footerFormat = "",
+      followPointer = TRUE
+    ) %>%
+    hc_colors(c("#023047", "#ffb703", "#fb8500")) %>%  
+    hc_add_theme(hc_theme_smpl()) 
+}

@@ -12,7 +12,7 @@ countries <- wbstats::wb_countries() %>%
 # Convert the dataframe to a list of lists
 countries <- split(countries, 1:nrow(countries))
 
-#countries <- sample(countries, 25)
+#countries <- sample(countries, 5)
 
 year <- 2022
 # Loop through the list of countries and generate .qmd files
@@ -52,8 +52,14 @@ for (country_info in countries) {
 
     # Add the highcharter HTML code to embed the chart
     '```{r} \n
+    country_report_beeswarm(cntry, yr)\n```\n\n',    
+    '::: {.column-margin} \n\n **SPI overall scores** provide an overall summary of the performance of statistical system. This index is produced by combining 50+ indicators into a single measure.  Scores range from 0-100. \n\n::: \n\n',
+    '```{r} \n
+    country_report_time_trends(cntry)\n```\n\n',    
+    '::: {.column-margin} \n\n The **SPI** allows the tracking of indicators over time.  SPI overall scores are available since 2016. \n\n::: \n\n',
+    '```{r} \n
     country_report_lolli_fn("SPI.INDEX", "SPI Overall Scores",100, cntry, yr)\n```\n\n',
-    '::: {.column-margin} \n\n The **SPI overall score** is based on five pillars of statistical performance: **data use**, **data services**, **data products**, **data sources**, and **data infrastructure**.  The scores for each pillar are shown in the table. \n\n::: \n\n',
+    '::: {.column-margin} \n\n The **SPI overall score** is based on five pillars of statistical performance: **data use**, **data services**, **data products**, **data sources**, and **data infrastructure**.  The scores for each pillar are shown in the figure. \n\n::: \n\n',
     '```{r} \n
     country_report_lolli_fn("SPI.D1", "Pillar 1: Data Use",1, cntry, yr)\n```\n\n',
     '::: {.column-margin} \n\n **Data Use**: Statistics have value only if they are used. A successful statistical system produces data that are used widely and frequently. \n\n:::\n\n',
