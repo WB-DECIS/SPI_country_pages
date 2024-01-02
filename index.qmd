@@ -13,9 +13,9 @@ listing:
     - "!index.qmd"
     sort: "date desc"
     type: grid
-    categories: false
+    categories: true
     sort-ui: false
-    filter-ui: false
+    filter-ui: true
     page-size: 9
     feed: true
 toc: false
@@ -105,7 +105,7 @@ load(here('data','WB_geojson.Rdata'))
                         value='value',
                         borderColor='white',
                         tooltip = list(
-                          pointFormat = "{point.country}: {point.data_available:,.1f} <br>
+                          pointFormat = "
                                          <b>SPI Overall Score:</b> {point.SPI_INDEX:,.1f} <br>
                                          <b>Data User Score: </b> {point.SPI_INDEX_PIL1:,.1f} <br>
                                          <b>Data Services Score: </b> {point.SPI_INDEX_PIL2:,.1f} <br>
@@ -130,7 +130,7 @@ load(here('data','WB_geojson.Rdata'))
             verticalAlign = "top"
           ) %>%
           hc_title(
-            text = "The SPI overall score combines the 50+ indicators into single measure",
+            text = "The SPI overall score combines 50+ indicators into single measure",
             style = list(fontFamily = "Andes")) 
         
         SPI_highchart_map

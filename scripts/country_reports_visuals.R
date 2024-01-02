@@ -178,7 +178,7 @@ country_report_beeswarm <- function(cntry, year) {
   df_beeswarm <- df_beeswarm %>%   
     mutate(
       density = density(SPI.INDEX, n=nrow(df_beeswarm))$y,
-      y = jitter(rep(1, nrow(.)), factor = 150*density)
+      y = jitter(rep(1, nrow(.)), factor = 200*density)
       ) %>%    
     mutate(group="Other Countries") %>%
     bind_rows(
@@ -209,7 +209,7 @@ country_report_beeswarm <- function(cntry, year) {
   hchart(df_other, "scatter", hcaes(x = SPI.INDEX, y=y, 
     name=group, group=group, showInLegend=TRUE),
     minSize=7, maxSize=20,
-    marker=list(symbol='circle', radius=5, fillColor='#8ecae6')
+    marker=list(symbol='circle', radius=5, fillColor='#C8E2EE')
     ) %>%
     hc_add_series(data = df_country,
                   hcaes(x=SPI.INDEX, y = y, name=country, group=group, showInLegend=TRUE),

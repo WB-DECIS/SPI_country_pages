@@ -31,10 +31,7 @@ for (country_info in countries) {
     '    html:\n',
     '        embed-resources: true\n',
     'subtitle: "SPI Country Brief"\n',
-    'description: |\n',
-    sprintf('  This SPI country report is designed to give an overview of the performance of %s.\n', country),
     'categories:\n',
-    '    - Statistical Performance\n',
     sprintf('    - %s\n', region),
     sprintf('    - %s\n', income_level),
     sprintf('image: images/%s.png\n', iso2c),
@@ -53,16 +50,16 @@ for (country_info in countries) {
     # Add the highcharter HTML code to embed the chart
     '```{r} \n
     country_report_beeswarm(cntry, yr)\n```\n\n',    
-    '::: {.column-margin} \n\n **SPI overall scores** provide an overall summary of the performance of statistical system. This index is produced by combining 50+ indicators into a single measure.  Scores range from 0-100. \n\n::: \n\n',
+    '::: {.column-margin} \n\n **SPI overall scores** provide an overall summary of the performance of statistical system. This chart shows the overall scores across countries. Scores range from 0-100. \n\n::: \n\n',
     '```{r} \n
     country_report_time_trends(cntry)\n```\n\n',    
     '::: {.column-margin} \n\n The **SPI** allows the tracking of indicators over time.  SPI overall scores are available since 2016. \n\n::: \n\n',
     '```{r} \n
-    country_report_lolli_fn("SPI.INDEX", "SPI Overall Scores",100, cntry, yr)\n```\n\n',
+    country_report_lolli_fn("SPI.INDEX", "SPI Scores",100, cntry, yr)\n```\n\n',
     '::: {.column-margin} \n\n The **SPI overall score** is based on five pillars of statistical performance: **data use**, **data services**, **data products**, **data sources**, and **data infrastructure**.  The scores for each pillar are shown in the figure. \n\n::: \n\n',
     '```{r} \n
     country_report_lolli_fn("SPI.D1", "Pillar 1: Data Use",1, cntry, yr)\n```\n\n',
-    '::: {.column-margin} \n\n **Data Use**: Statistics have value only if they are used. A successful statistical system produces data that are used widely and frequently. \n\n:::\n\n',
+    '::: {.column-margin} \n\n **Data Use**: Statistics have value only if they are used. A successful statistical system produces data that are used widely and frequently. Scores for specific indicators are on a scale of 0-1, with 1 being the best possible score. \n\n:::\n\n',
     '```{r} \n
     country_report_lolli_fn("SPI.D2", "Pillar 2: Data Services",1, cntry, yr)\n```\n\n',
     '::: {.column-margin} \n\n **Data Services**:  A range of services connects data users to producers and facilitate dialogues between them, thus building trust and adding value to data.. \n\n:::\n\n',
@@ -75,7 +72,7 @@ for (country_info in countries) {
     '```{r} \n
     country_report_lolli_fn("SPI.D5", "Pillar 5: Data Infrastructure",1, cntry, yr)\n```\n\n',
     '::: {.column-margin} \n\n **Data Infrastructure**:  A mature statistical system has well-developed institutional infrastructure (legislation, governance, standards), soft infrastructure (skills, partnerships), and the financial resources to deliver useful—and widely used—data products and services. \n\n::: \n\n',
-    'Underpinning these five pillars are 22 dimensions and 51 indicators. Please visit the [framework page](https://www.worldbank.org/en/programs/statistical-performance-indicators/Framework) of the SPI website for more details or read our peer reviewed [journal article](https://www.nature.com/articles/s41597-023-01971-0).'
+    'Underpinning these five pillars are 22 dimensions and 51 indicators. Please visit the [framework page](https://www.worldbank.org/en/programs/statistical-performance-indicators/Framework) of the SPI website for more details or read our [journal article in Scientific Data](https://www.nature.com/articles/s41597-023-01971-0).'
   )
   
   # Define the filename for the .qmd file

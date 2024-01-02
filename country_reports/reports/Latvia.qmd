@@ -4,10 +4,7 @@ format:
     html:
         embed-resources: true
 subtitle: "SPI Country Brief"
-description: |
-  This SPI country report is designed to give an overview of the performance of Latvia.
 categories:
-    - Statistical Performance
     - Europe & Central Asia
     - High income
 image: images/LV.png
@@ -46,7 +43,7 @@ year <-2022
 
 ::: {.column-margin} 
 
- **SPI overall scores** provide an overall summary of the performance of statistical system. This index is produced by combining 50+ indicators into a single measure.  Scores range from 0-100. 
+ **SPI overall scores** provide an overall summary of the performance of statistical system. This chart shows the overall scores across countries. Scores range from 0-100. 
 
 ::: 
 
@@ -63,7 +60,7 @@ year <-2022
 
 ```{r} 
 
-    country_report_lolli_fn("SPI.INDEX", "SPI Overall Scores",100, cntry, yr)
+    country_report_lolli_fn("SPI.INDEX", "SPI Scores",100, cntry, yr)
 ```
 
 ::: {.column-margin} 
@@ -79,7 +76,7 @@ year <-2022
 
 ::: {.column-margin} 
 
- **Data Use**: Statistics have value only if they are used. A successful statistical system produces data that are used widely and frequently. 
+ **Data Use**: Statistics have value only if they are used. A successful statistical system produces data that are used widely and frequently. Scores for specific indicators are on a scale of 0-1, with 1 being the best possible score. 
 
 :::
 
@@ -127,4 +124,4 @@ year <-2022
 
 ::: 
 
-Underpinning these five pillars are 22 dimensions and 51 indicators. Please visit the [framework page](https://www.worldbank.org/en/programs/statistical-performance-indicators/Framework) of the SPI website for more details or read our peer reviewed [journal article](https://www.nature.com/articles/s41597-023-01971-0).
+Underpinning these five pillars are 22 dimensions and 51 indicators. Please visit the [framework page](https://www.worldbank.org/en/programs/statistical-performance-indicators/Framework) of the SPI website for more details or read our [journal article in Scientific Data](https://www.nature.com/articles/s41597-023-01971-0).
