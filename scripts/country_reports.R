@@ -47,7 +47,7 @@ for (country_info in countries) {
     sprintf('This is the Country Report for **%s** based on data from **%d**.\n\n', country, year),
     '```{r}\nlibrary(tidyverse)\nlibrary(here)\nlibrary(downloadthis)\n```\n\n',
     '{{< downloadthis files/SPI_data.xlsx dname=SPI_Index label="Download the SPI data" icon=database-fill-down type=info class=data-button id=spi >}}\n\n',
-    '```{r} \nsource("C:/Users/wb469649/Documents/GitHub/SPI_country_pages/scripts/country_reports_visuals.R")\n``` \n\n',
+    '```{r} \nsource(here("scripts","country_reports_visuals.R"))\n``` \n\n',
     sprintf('```{r}\ncntry<- "%s" \nyear <-%d\n```\n\n', country, year),
 
     # Add the highcharter HTML code to embed the chart

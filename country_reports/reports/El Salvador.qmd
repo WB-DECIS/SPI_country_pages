@@ -31,7 +31,7 @@ library(downloadthis)
 {{< downloadthis files/SPI_data.xlsx dname=SPI_Index label="Download the SPI data" icon=database-fill-down type=info class=data-button id=spi >}}
 
 ```{r} 
-source("C:/Users/wb469649/Documents/GitHub/SPI_country_pages/scripts/country_reports_visuals.R")
+source(here("scripts","country_reports_visuals.R"))
 ``` 
 
 ```{r}
