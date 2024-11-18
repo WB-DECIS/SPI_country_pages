@@ -51,7 +51,7 @@ library(highcharter)
 
  df_overall<- read_csv(here('data','SPI_index.csv'))  %>%
             select(iso3c, country, region,  income, date, starts_with('SPI'), population) %>%
-            filter(date==2022) 
+            filter(date==2023) ## Need to adjust each update
 
         
         

@@ -14,7 +14,7 @@ countries <- split(countries, 1:nrow(countries))
 
 #countries <- sample(countries, 5)
 
-year <- 2022
+year <- 2023
 # Loop through the list of countries and generate .qmd files
 for (country_info in countries) {
   # Extract country-specific information

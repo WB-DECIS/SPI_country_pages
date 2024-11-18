@@ -3,7 +3,7 @@ library(here)
 library(highcharter)
 library(wbstats)
 
-yr <- 2022
+yr <- 2023
 
 #load data
 SPI <- read_csv(here("data","SPI_index.csv")) %>%
@@ -169,12 +169,12 @@ country_report_beeswarm <- function(cntry, year) {
 
   agg_df <- lolli_df(cntry, year)
 
-  #create a highcharter plot that is a beeswarm plot with the SPI data plotted for column SPI.INDEX.  The data is filtered so the year is 2022.  Each point is the value for SPI.INDEX
+  #create a highcharter plot that is a beeswarm plot with the SPI data plotted for column SPI.INDEX.  The data is filtered so the year is 2023.  Each point is the value for SPI.INDEX
   df_beeswarm <- SPI %>% 
     filter(date==year) %>%
     filter(!is.na(SPI.INDEX)) 
 
-  #get all data for 2022  
+  #get all data for 2023  
   df_beeswarm <- df_beeswarm %>%   
     mutate(
       density = density(SPI.INDEX, n=nrow(df_beeswarm))$y,

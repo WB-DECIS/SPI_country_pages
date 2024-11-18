@@ -17,7 +17,7 @@ The Statistical Performance Indicators measure the capacity and maturity of nati
 
 The hope is that the SPI framework will give countries incentives to build better statistical systems and will help create data ecosystems that can develop and adapt to the requirements of governments and citizens - so that better data can support better decisions.
 
-This is the Country Report for **South Africa** based on data from **2022**.
+This is the Country Report for **South Africa** based on data from **2023**.
 
 ```{r}
 library(tidyverse)
@@ -33,7 +33,7 @@ source(here("scripts","country_reports_visuals.R"))
 
 ```{r}
 cntry<- "South Africa" 
-year <-2022
+year <-2023
 ```
 
 ```{r} 
